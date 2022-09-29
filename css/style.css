@@ -1,0 +1,82 @@
+:root{
+    --my-gray:#1F1F1F;
+    --my-bg-grey:#BEBCBB;
+    --dark-blue:#161C3B;
+}
+
+#logo{
+    height: 40px;
+    position: relative;
+}
+#logo img{
+    height: 100%;
+    padding: 7px 0;
+    position: absolute;
+    right: 8px;
+}
+.my-nav{
+    height: 70px;
+    
+}
+
+.my-hero{
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.hero-inner .col img{
+    width: 60%;
+    padding-top:90px;
+}
+.col-6 img{
+    width: 100%;
+    max-width: 100%;
+}
+#hero-card{
+    padding: 30px 0 0 0;
+
+}
+.play-5{
+    padding-top: 45px ;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.hero-2{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.hero-2 img{
+    width: 60%;
+}
+#nuove-uscite{
+    background-color: var(--my-gray);
+}
+#esplora{
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+#plus{
+    background-color: var(--my-bg-grey);
+    margin: 10px 0;
+}
+/* #plus img{
+    width: 50%;
+} */
+.my-basis-50{
+    flex-basis: 50%;
+}
+#plus-img{
+    width: 60%;
+    padding-top: 10px;
+}
+#ps-now{
+    background-color: var(--dark-blue);
+}
+.ps-now-img{
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
