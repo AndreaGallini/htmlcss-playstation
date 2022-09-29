@@ -13,9 +13,13 @@
     padding: 7px 0;
     position: absolute;
     right: 8px;
+    width: 100px;
 }
 .my-nav{
     height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
     
 }
 
@@ -49,7 +53,7 @@ img{
     background-size: cover;
 }
 .hero-2 img{
-    width: 60%;
+    width: 50%;
 }
 #nuove-uscite{
     background-color: var(--my-gray);
@@ -65,11 +69,13 @@ img{
 /* #plus img{
     width: 50%;
 } */
+
+
 .my-basis-50{
     flex-basis: 50%;
 }
 #plus-img{
-    width: 60%;
+    width: 50%;
     padding-top: 10px;
 }
 #ps-now{
@@ -79,4 +85,31 @@ img{
     width: 60%;
     padding-top: 10px;
     padding-bottom: 30px;
+}
+@media screen and (max-width:992px){
+    .hidden{
+        display: none;
+    }
+    .my-basis-100{
+        flex-basis: 100%;
+    }
+    .my-d-flex-lg{
+        display: flex;
+        align-items: center;
+    }
+    .my-basis-50-lg{
+        flex-basis: 50%;
+    }
+}
+@media screen and (max-width:1200px){
+    .my-basis-100{
+        flex-basis: 100%;
+    }
+    .my-d-flex-lg{
+        display: flex;
+        align-items: center;
+    }
+    .my-basis-50-lg{
+        flex-basis: 50%;
+    }
 }
