@@ -2,6 +2,7 @@
     --my-gray:#1F1F1F;
     --my-bg-grey:#BEBCBB;
     --dark-blue:#161C3B;
+    --myblue:#00439C;
 }
 
 #logo{
@@ -100,6 +101,9 @@ img{
     .my-basis-50-lg{
         flex-basis: 50%;
     }
+    .my-row{
+        
+    }
 }
 @media screen and (max-width:1200px){
     .my-basis-100{
@@ -112,4 +116,22 @@ img{
     .my-basis-50-lg{
         flex-basis: 50%;
     }
+}
+
+footer{
+    background-color: var(--myblue);
+}
+
+.ps-footer{
+    width: 10%;
+}
+#footer-top svg{
+    width: 3%;
+}
+.my-language{
+    
+}
+.ps-footer-bottom{
+    width: 30%;
+    padding-bottom: 10px;
 }
