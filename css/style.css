@@ -3,7 +3,10 @@
     --my-bg-grey:#BEBCBB;
     --dark-blue:#161C3B;
     --myblue:#00439C;
-}
+    --red-btn:#CD3D0F;
+    --blue-btn:#2D64E6;
+    --grey-btn:#D9DADC;
+}   --white-btn:#ffffff;
 
 #logo{
     height: 40px;
@@ -104,6 +107,9 @@ img{
     .my-row{
         
     }
+    .my-max-container{
+        max-width: 700px;
+    }
 }
 @media screen and (max-width:1200px){
     .my-basis-100{
@@ -115,6 +121,24 @@ img{
     }
     .my-basis-50-lg{
         flex-basis: 50%;
+    }
+    .my-max-container{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width:1400px){
+    .my-basis-100{
+        flex-basis: 100%;
+    }
+    .my-d-flex-lg{
+        display: flex;
+        align-items: center;
+    }
+    .my-basis-50-lg{
+        flex-basis: 50%;
+    }
+    .my-max-container{
+        max-width: 700px;
     }
 }
 
@@ -135,3 +159,47 @@ footer{
     width: 30%;
     padding-bottom: 10px;
 }
+button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0;
+}
+.my-btn-red{
+    background-color:var(--red-btn) ;
+    color: #fff;
+}
+.my-btn-grey{
+    background-color: var(--grey-btn);
+    color: var(--myblue);
+}
+.my-btn-blue{
+    background-color: var(--blue-btn);
+    color: #fff;
+}
+.my-btn-white{
+    background-color: var(--grey-btn);
+    color: var();
+}
+.my-btn-blue:hover{
+    outline: var(--blue-btn) solid 2px;
+    outline-offset: 1px;
+}
+.my-btn-red:hover{
+    outline: var(--red-btn) solid 2px;
+    outline-offset: 1px;
+}
+.my-btn-grey:hover{
+    outline: var(--grey-btn) solid 2px;
+    outline-offset: 1px;
+}
+.my-btn-white:hover{
+    outline: #fff solid 2px;
+    outline-offset: 1px;
+}
+#footer-top p{
+    margin: 0;
+    padding-left: 10px;
+}
+
+
+
